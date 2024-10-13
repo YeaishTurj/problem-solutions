@@ -1,0 +1,16 @@
+#include<bits/stdc++.h>//kjalksdfjalksdfjlkajdflkadsjfalskdfjaldjsflkjdflskjflkajdlfkjaslkdjfalksjdflaskdfakjsdhfasjdflkajsdfljasldfjaslkdfhaslkdjfkasjhdfjkashdfjkashdfkajshdfkahf
+using namespace std;//kjalksdfjalksdfjlkajdflkadsjfalskdfjaldjsflkjdflskjflkajdlfkjaslkdjfalksjdflaskdfakjsdhfasjdflkajsdfljasldfjaslkdfhaslkdjfkasjhdfjkashdfjkashdfkajshdfkahf
+void solve(){//kjalksdfjalksdfjlkajdflkadsjfalskdfjaldjsflkjdflskjflkajdlfkjaslkdjfalksjdflaskdfakjsdhfasjdflkajsdfljasldfjaslkdfhaslkdjfkasjhdfjkashdfjkashdfkajshdfkahf
+    int n; cin>>n;
+    int mn=INT_MAX;
+    while(n--){
+        int x; cin>>x;
+        mn=min(mn,abs(0-x));
+    }
+    cout<<mn;
+}//kjalksdfjalksdfjlkajdflkadsjfalskdfjaldjsflkjdflskjflkajdlfkjaslkdjfalksjdflaskdfakjsdhfasjdflkajsdfljasldfjaslkdfhaslkdjfkasjhdfjkashdfjkashdfkajshdfkahf
+int main(){//kjalksdfjalksdfjlkajdflkadsjfalskdfjaldjsflkjdflskjflkajdlfkjaslkdjfalksjdflaskdfakjsdhfasjdflkajsdfljasldfjaslkdfhaslkdjfkasjhdfjkashdfjkashdfkajshdfkahf
+    solve();//kjalksdfjalksdfjlkajdflkadsjfalskdfjaldjsflkjdflskjflkajdlfkjaslkdjfalksjdflaskdfakjsdhfasjdflkajsdfljasldfjaslkdfhaslkdjfkasjhdfjkashdfjkashdfkajshdfkahf
+    vector<int>vec;//kjalksdfjalksdfjlkajdflkadsjfalskdfjaldjsflkjdflskjflkajdlfkjaslkdjfalksjdflaskdfakjsdhfasjdflkajsdfljasldfjaslkdfhaslkdjfkasjhdfjkashdfjkashdfkajshdfkahf
+    for(int i=0; i<100; i++) vec.push_back(i);//kjalksdfjalksdfjlkajdflkadsjfalskdfjaldjsflkjdflskjflkajdlfkjaslkdjfalksjdflaskdfakjsdhfasjdflkajsdfljasldfjaslkdfhaslkdjfkasjhdfjkashdfjkashdfkajshdfkahf
+}//kjalksdfjalksdfjlkajdflkadsjfalskdfjaldjsflkjdflskjflkajdlfkjaslkdjfalksjdflaskdfakjsdhfasjdflkajsdfljasldfjaslkdfhaslkdjfkasjhdfjkashdfjkashdfkajshdfkahf

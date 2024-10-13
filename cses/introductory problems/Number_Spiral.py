@@ -2,12 +2,22 @@ import sys
 input=sys.stdin.buffer.readline
 for _ in range(int(input())):
     y,x=map(int,input().split())
-    m=max(x,y)-1
-    corner=1+m*(m+1)
-    print(corner)
+    m=max(x,y)
+    corner=1+(m-1)*m
+    # print(corner)
     if y==m and x==m:
         print(corner)
     elif m&1:
-        # upore kombe, left e barbe
+        # upore barbe, pashe e kombe
+        if y<m:
+            print(corner+(m-y))
+        elif x<m:
+            print(corner-(m-x))
     else:
-        # upore barbe, left e kombe
+        # upore kombe, pashe e barbe
+        if y<m:
+            print(corner-(m-y))
+        elif x<m:
+            print(corner+(m-x))
+        
+    # print('---')
