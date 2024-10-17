@@ -9,3 +9,5 @@ while l<=len(s):
         ans=max(ans,r-l)
         l=r
 print(ans)
+
+# The above code is a solution for the problem from Repetitions.py

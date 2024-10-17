@@ -19,5 +19,5 @@ for _ in range(int(input())):
             print(corner-(m-y))
         elif x<m:
             print(corner+(m-x))
-        
-    # print('---')
+
+# The above code is a solution for the problem from Number_Spiral.py

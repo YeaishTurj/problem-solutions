@@ -6,3 +6,5 @@ while n!=1:
     else:
         n=n*3+1
 print(1)
+
+# The above code is a solution for the problem from Weird_Algorithm.py

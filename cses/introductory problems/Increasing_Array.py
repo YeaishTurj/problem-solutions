@@ -7,3 +7,5 @@ while i<n:
         a[i]=a[i-1]
     i+=1
 print(ans)
+
+# The above code is a solution for the problem from Increasing_Array.py
